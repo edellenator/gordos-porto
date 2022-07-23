@@ -5,6 +5,7 @@ import Header from './components/Header';
 import AboutMe from './pages/AboutMe'
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutMe />
       <Portfolio />
       <Contact />
+      <Resume />
       <Footer />
     </div>
   );
