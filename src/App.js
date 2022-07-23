@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import AboutMe from './pages/AboutMe'
+import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <AboutMe />
       <Portfolio />
+      <Contact />
       <Footer />
     </div>
   );
