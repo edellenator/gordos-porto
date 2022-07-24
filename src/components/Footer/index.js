@@ -2,15 +2,13 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="sticky-bottom">
-            <div className="container">
+            <div className="w-100 bg-light footer">
                 <div className="row">
-                    <div className="column">
-                        Erik Dell © 2022
+                    <div className="col-12">
+                        <h5>Erik Dell © 2022</h5>
                     </div>
                 </div>
             </div>
-        </footer>
     );
 }
 

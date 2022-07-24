@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.footer {
+  position:fixed;
+  bottom:0%;
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: #c0c0c0;
+}
+
+.nav-button {
+  cursor: pointer;
+  background-color: #f8f9fa;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
