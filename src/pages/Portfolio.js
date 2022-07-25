@@ -1,51 +1,36 @@
 import React from "react";
+import Project from "../components/Project";
 
 const Portfolio = () => {
-    return (
-        <div className="container justify-content-between">
-            <div className="row justify-content-between">
+    const projects = [
+        {
+            id: '01',
+            name: 'Food Finder',
+            description: 'Front-end Javascript/ Third party API'
+        },
+        {
+            id: '02',
+            name: 'Run Buddy',
+            description: 'HTML/CSS front end only'
+        },
+        {
+            id: '03',
+            name: 'Selling Later',
+            description: 'Javascript, SQL, Sequelize, Express'
+        },
 
-                <div className="card text-bg-white col-3 m-2 border border-0">
-                    <img className="card-img" src={require('../assets/images/placeholderimg.png')} alt="placeholder-image" />
-                    <div className="card-img-overlay">
-                        <h5 className="card-title align-middle">Card title</h5>
-                    </div>
-                </div>
-                <div className="card text-bg-white col-3 m-2 border border-0">
-                    <img className="card-img" src={require('../assets/images/placeholderimg.png')} alt="placeholder-image" />
-                    <div className="card-img-overlay">
-                        <h5 className="card-title align-middle">Card title</h5>
-                    </div>
-                </div>
-                <div className="card text-bg-white col-3 m-2 border border-0">
-                    <img className="card-img" src={require('../assets/images/placeholderimg.png')} alt="placeholder-image" />
-                    <div className="card-img-overlay">
-                        <h5 className="card-title align-middle">Card title</h5>
-                    </div>
-                </div>
-                <div className="card text-bg-white col-3 m-2 border border-0">
-                    <img className="card-img" src={require('../assets/images/placeholderimg.png')} alt="placeholder-image" />
-                    <div className="card-img-overlay">
-                        <h5 className="card-title align-middle">Card title</h5>
-                    </div>
-                </div>
-                <div className="card text-bg-white col-3 m-2 border border-0">
-                    <img className="card-img" src={require('../assets/images/placeholderimg.png')} alt="placeholder-image" />
-                    <div className="card-img-overlay">
-                        <h5 className="card-title align-middle">Card title</h5>
-                    </div>
-                </div>
-                <div className="card text-bg-white col-3 m-2 border border-0">
-                    <img className="card-img" src={require('../assets/images/placeholderimg.png')} alt="placeholder-image" />
-                    <div className="card-img-overlay">
-                        <h5 className="card-title align-middle">Card title</h5>
-                    </div>
-                </div>
-                
-                
+    ]
+    return (
+        <div className="container project-container">
+            <div className="row">
+                <div className="col-12 justify-content-start">Portfolio</div>
             </div>
+            <Project
+            projects={projects} />
         </div>
     );
+
+
 };
 
 export default Portfolio;
