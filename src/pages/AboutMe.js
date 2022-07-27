@@ -5,6 +5,9 @@ const AboutMe = () => {
     return (
         
         <div className="container p-4">
+            <div className="card col-2 mb-4">
+                <img className="card-img" src={require('../assets/images/IMG-0065.JPG')} alt='Erik Dell' />
+            </div>
             <h3 className="row">
                 Education
             </h3>
