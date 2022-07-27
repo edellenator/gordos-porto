@@ -19,20 +19,20 @@ const Header = (props) => {
                 </Col>
                 <Col>
                     <nav>
-                        <ul className="list-group list-group-horizontal rounded-0">
+                        <div className="d-flex flex-row">
                         {navItems.map((navItem) => (
-                            <li 
-                                className={`nav-button h3 border border-0 text-center list-group-item list-group-item-action flex-fill 
+                            <button 
+                                className={`nav-button h3 border border-0 text-center flex-fill m-3
                                     ${
-                                        activeNavItem === navItem ? 'bg-dark text-light' : 'bg-light text-dark'
+                                        activeNavItem === navItem ? 'btn bg-dark text-light font-weight-bold' : 'btn btn-light text-dark'
                                     }`}
                                 key={navItem}
                             >
                                 <span onClick={() => setActiveNavItem(navItem)}>{navItem}</span>
-                            </li>
+                            </button>
 
                         ))}
-                        </ul>
+                        </div>
                     </nav>
                 </Col>
             </Navbar>

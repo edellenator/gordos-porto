@@ -23,7 +23,7 @@ const Portfolio = () => {
     return (
         <div className="container project-container">
             <div className="row">
-                <div className="col-12 justify-content-start">Portfolio</div>
+                <h3 className="col-12">Portfolio</h3>
             </div>
             <Project
             projects={projects} />

@@ -34,15 +34,32 @@
   text-align: center;
 }
 
-.nav-button:hover {
-  background-color: #c0c0c0;
-}
 
 .nav-button {
   cursor: pointer;
   background-color: #f8f9fa;
 }
 
+.nav-button:hover {
+  background-color: #7f7f7f;
+}
+
+.project-button {
+  background-color: rgba(4, 0, 214, 0.2);
+  text-align: center;
+  cursor:pointer;
+  padding: 10px;
+}
+
+.project-button:hover {
+  background-color: rgb(11, 10, 122);
+  color: #fff;
+  transition: 200ms;
+}
+
+.project-image {
+  opacity: 50%;
+}
 .img-thumbnail {
   width: auto;
   height: 300px;
