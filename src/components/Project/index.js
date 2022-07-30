@@ -21,7 +21,16 @@ const Project = (props) => {
                         <div className="project-button">
                             <h3 className="card-title">{project.name}</h3>
                             <p className="card-text">{project.description}</p>
-                            <p><FontAwesomeIcon icon={faGithub} size="2x" /><span className="m-4"><FontAwesomeIcon icon={faLink} size="2x" /></span></p>
+                            <p>
+                                <a href={project.github} target="_blank">
+                                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                                </a>
+                                <span className="m-4">
+                                <a href={project.deployed} target="_blank">
+                                    <FontAwesomeIcon icon={faLink} size="2x" />
+                                </a>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
