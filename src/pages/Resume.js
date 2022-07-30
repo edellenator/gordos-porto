@@ -1,8 +1,11 @@
 import React from "react";
+import resume from "../assets/images/resume.pdf"
 
 const Resume = () => {
     return (
         <div className="container">
+                    <h3>Resume</h3>
+                    <p>Download my resume <a href={resume} download="erik-dell-resume.pdf">here</a></p>
             <div className="row my-4">
                 <div className="col-md-6">
                     <ul className="list-group"><h3>Technical Skills</h3>
@@ -110,7 +113,7 @@ const Resume = () => {
                             </li>
                         </ol>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item mb-5">
                         <h4>Craig Murray Productions</h4>
                         <ul className="list-group">
                             <li className="list-group-item">
