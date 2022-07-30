@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gordos-porto/static/css/main.a4197f49.css",
+    "main.js": "/gordos-porto/static/js/main.8ceb44e3.js",
+    "static/js/787.65cd5cab.chunk.js": "/gordos-porto/static/js/787.65cd5cab.chunk.js",
+    "static/media/02.png": "/gordos-porto/static/media/02.ce2e91086228cb02d3c5.png",
+    "static/media/resume.pdf": "/gordos-porto/static/media/resume.f377f061335f4a985dc1.pdf",
+    "static/media/04.png": "/gordos-porto/static/media/04.bf9db378f9410c6e5759.png",
+    "static/media/IMG-0065.JPG": "/gordos-porto/static/media/IMG-0065.f44efb63e4359a36461c.JPG",
+    "static/media/01.png": "/gordos-porto/static/media/01.fb18603818b852c99445.png",
+    "static/media/03.png": "/gordos-porto/static/media/03.d60001ad08cb0ee23016.png",
+    "index.html": "/gordos-porto/index.html",
+    "main.a4197f49.css.map": "/gordos-porto/static/css/main.a4197f49.css.map",
+    "main.8ceb44e3.js.map": "/gordos-porto/static/js/main.8ceb44e3.js.map",
+    "787.65cd5cab.chunk.js.map": "/gordos-porto/static/js/787.65cd5cab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4197f49.css",
+    "static/js/main.8ceb44e3.js"
+  ]
+}
