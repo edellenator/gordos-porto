@@ -31,6 +31,13 @@ const Portfolio = () => {
             github: 'https://github.com/edellenator/weather-tether',
             deployed: 'https://edellenator.github.io/weather-tether/'
         },
+        {
+            id: '05',
+            name: 'Deja-IMp',
+            description: 'MERN',
+            github: 'https://github.com/edellenator/Deja-imp',
+            deployed: 'https://deja-imp.herokuapp.com/'
+        },
 
     ]
     return (
