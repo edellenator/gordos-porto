@@ -41,12 +41,11 @@ const Portfolio = () => {
 
     ]
     return (
+
         <div className="container project-container">
-            <div className="row">
-                <h3 className="col-12">Portfolio</h3>
-            </div>
             <Project
-            projects={projects} />
+                projects={projects} 
+            />
         </div>
     );
 

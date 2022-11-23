@@ -13,40 +13,30 @@ const Project = (props) => {
                 {/* <div className="row justify-content-between"> */}
                     {projects.map((project) => (
                         <a href={`#slide-${project.id}`}>{project.id}</a>
-                    // <div className="card text-bg-white col-3 m-1 border border-0">
-                    //     <img 
-                    //         src={require(`../../assets/images/${project.id}.png`)} 
-                    //         alt={project.name}
-                    //         className="card-img project-img" 
-                    //         key={project.name}
-                    //     />
-                    //     <div className="card-img-overlay">
-                    //         <div className="project-button">
-                    //             <h3 className="card-title">{project.name}</h3>
-                    //             <p className="card-text">{project.description}</p>
-                    //             <p>
-                    //                 <a href={project.github} target="_blank">
-                    //                     <FontAwesomeIcon icon={faGithub} size="2x" />
-                    //                 </a>
-                    //                 <span className="m-4">
-                    //                 <a href={project.deployed} target="_blank">
-                    //                     <FontAwesomeIcon icon={faLink} size="2x" />
-                    //                 </a>
-                    //                 </span>
-                    //             </p>
-                    //         </div>
-                    //     </div>
-                    // </div>
                     ))}
                     <div className="slides">
                         {projects.map((project) => (
-                            <div id={`slide-${project.id}`}>
+                            <div className="card" id={`slide-${project.id}`}>
                                 <img 
-                                    src={require(`../../assets/images/${project.id}.png`)} 
+                                    src={require(`../../assets/images/${project.id}.svg`)} 
                                     alt={project.name}
-                                    className="card-img project-img" 
+                                    className="card-img-top img-thumbnail" 
                                     key={project.name}
                                 />
+                                <div className="card-body">
+                                        <p className="card-title">{project.name}</p>
+                                        <p className="card-text">{project.description}</p>
+                                        <p>
+                                            <a href={project.github} target="_blank">
+                                                <FontAwesomeIcon icon={faGithub} size="2x" />
+                                            </a>
+                                            <span className="m-4">
+                                            <a href={project.deployed} target="_blank">
+                                                <FontAwesomeIcon icon={faLink} size="2x" />
+                                            </a>
+                                            </span>
+                                        </p>
+                                </div>
                             </div>
                         ))}
                     </div>
